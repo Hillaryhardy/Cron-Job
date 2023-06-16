@@ -19,5 +19,5 @@ spec:
             name: simpletask
             resources: {}
           restartPolicy: OnFailure
-  schedule: '*/5 * * * *'
+  schedule: '*/5 * * *'
 status: {}

@@ -15,9 +15,9 @@ spec:
         spec:
           containers:
           - image: simpletask.py
-            imagePullPolicy: IfNotPresent
+            imagepull
             name: simpletask
             resources: {}
           restartPolicy: OnFailure
-  schedule: '*/5 * * * *'
+  schedule: '*/5 * * *'
 status: {}
