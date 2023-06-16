@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  creationTimestamp: null
+  name: simpletask
+spec:
+  jobTemplate:
+    metadata:
+      creationTimestamp: null
+      name: simpletask
+    spec:
+      template:
+        metadata:
+          creationTimestamp: null
+        spec:
+          containers:
+          - image: simpletask.py
+            name: simpletask
+            resources: {}
+          restartPolicy: OnFailure
+  schedule: '*/5 * * *'
+status: {}
