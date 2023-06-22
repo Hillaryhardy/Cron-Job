@@ -20,4 +20,4 @@ spec:
             resources: {}
           restartPolicy: OnFailure
   schedule: '*/5 * * * *'
-git add 
+status: {}
